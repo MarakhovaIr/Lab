@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скриншонты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="menu">
+    <h1>Screen share</h1>
+    <div>
+    <button class="Sign Entrance" id="Button_Reg">
+        <span>Sign in</span>
+    </button>
+        <button class="button Entrance" id = "Button_Enter">
+            <span>Log in</span>
+        </button>
+        <button class="button Entrance" id="Button_Exit" style="display:none">
+            <span>EXet</span>
+        </button>
+    </div>
+
+</div>
+</header>
+<section  class = "header">
+    <div class = "container">
+        <div>
+    <div class="photoAdd">
+        <img class="image1" src="Img/image 1.png" >
+    </div >
+            <div class="public">
+            <p>public</p>
+                <input class="check1" type="checkbox" name="check" value="check1">
+            </div>
+    </div>
+    </div>
+</section>
+
+<section>
+    <div class = "container">
+        <div class = "cards">
+            <a href="">
+                <div class ="card">
+                    <div class = "inside">
+                        <p>Переписка</p>
+                        <img src="Img/Rectangle 12.png" class="img">
+                        <p>Дата добавления: 21.11.21</p>
+                    </div>
+                    <img src="Img/Rectangle 13.png" class ="imgcard">
+                </div>
+            </a>
+            <div class ="card">
+                <div class = "inside">
+                    <p>Переписка</p>
+                    <img src="Img/Rectangle 12.png" class="img">
+                    <p>Дата добавления: 21.11.21</p>
+                </div>
+                <img src="Img/Rectangle 13.png" class ="imgcard">
+            </div>
+            <div class ="card">
+                <div class = "inside">
+                    <p>Переписка</p>
+                    <img src="Img/Rectangle 12.png" class="img">
+                    <p>Дата добавления: 21.11.21</p>
+                </div>
+                <img src="Img/Rectangle 13.png" class ="imgcard">
+            </div>
+            <div class ="card">
+                <div class = "inside">
+                    <p>Переписка</p>
+                    <img src="Img/Rectangle 12.png" class="img">
+                    <p>Дата добавления: 21.11.21</p>
+                </div>
+                <img src="Img/Rectangle 13.png" class ="imgcard">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id = "footer">
+    <div class="container">
+
+    </div>
+</footer>
+
+<div id="zatemnenie" style="display:none"></div>
+<div id="okno" style="display:none">
+    <p>Вход</p>
+    <img src="img/cross.png" class="cross">
+    <form> <input type="text" class="name" placeholder="Введите логин"> </form>
+
+    <div class="textbox">
+        <form> <input type="password" class="pword" placeholder="Введите пароль"> </form>
+    </div>
+    <button type="button" id="logIN" class="newbut">Войти</button>
+</div>
+
+
+<div id="okno2" style="display:none">
+    <p>Регистрация</p>
+    <img src="img/cross.png" class="cross1">
+    <form> <input type="text" class="new_name" placeholder="Введите имя"> </form>
+
+    <div class="textbox">
+        <form> <input type="text" class="new_email" placeholder="Введите email"> </form>
+    </div>
+    <div class="textbox">
+        <form> <input type="text" class="new_phone" placeholder="Введите телефон"> </form>
+    </div>
+    <div class="textbox">
+        <form> <input type="password" class="new_password" placeholder="Введите пароль"> </form>
+    </div>
+    <div class="textbox">
+        <form> <input type="password" class="new_password_again" placeholder="Повторите пароль"> </form>
+    </div>
+    <div class="yes">
+        <input type="checkbox" class="check_box"> <p class="agree">Согласие на обработку данных</p>
+    </div>
+    <button type="button" id="Register" class="newbut" disabled="true">Зарегистрироваться</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
